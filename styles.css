@@ -41,4 +41,41 @@ form{
 
 }
 
+h1{
+    font:
+        1em "typewriter",
+        monospace;
+        align-self: end;
+}
 
+#message{
+    grid-row: 1/5;
+}
+
+#from,
+#reply{
+    display: flex;
+}
+
+label{
+    font:
+        0.8em "typewriter",
+        sans-serif;
+}
+
+input,textarea{
+    font:
+        1.4em/1.5em "handwriting",
+        cursive,
+        sans-serif;
+    border:none;
+    padding:0 10px;
+    margin:0;
+    width: 80%;
+    background: none;
+}
+
+input:focus, textarea:focus{
+    background-color: rgb(0 0 0/10%);
+    border-radius: 5px;
+}
